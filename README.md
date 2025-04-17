@@ -52,3 +52,23 @@ Input Output
 10 * 9 = 90
 10 * 10 = 100
 
+03. Combinations
+Write a program that calculates how many solutions in natural numbers (including zero) the equation has:
+x1 + x2 + x3 = n
+The number n is an integer and is entered from the console.
+Sample input and output
+Input Output Explanations                                                 Input Output Input Output
+25    351    We generate all combinations of 5 numbers, the first one is: 20    231    5     21
+             0+0+0=0, but since it is not equal to 25, we continue:
+             0+0+1=1 – also not 25, etc.
+            We reach the first valid combination:
+            0 + 0 + 25 = 25, we increase the number of valid
+            combinations by 1,
+            the second valid combination is:
+            0 + 1 + 24 = 25
+            The third:
+            0 + 2 + 23 = 25, etc.
+            After generating all possible combinations,
+            the number of valid ones is 351. 
+
+
