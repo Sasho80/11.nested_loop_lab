@@ -110,6 +110,55 @@ Input Output
 888   - neither equals 2000
 2000	
 
+05. Travel
+Annie loves to travel and wants to visit several different destinations this year.
+Once she has chosen a destination, she will estimate how much money she will need to go there and start saving.
+When she has saved enough, she will be able to travel.
+The console will first read the destination and the minimum budget (decimal number) that will be needed for the trip.
+Then, several amounts (decimal numbers) that Annie saves by working will be read and when she manages to save enough for the trip,
+she will leave, and the console should display: "Going to {destination}!"
+When she has visited all the destinations she wants, she will enter "End" instead of destination and the program will end.
 
+Sample input and output
+Input      Output                    
+Greece    Going to Greece!                        
+1000.00   Going to Spain!                         
+200.00                                          
+200.00
+300.00
+100.00
+150.00
+240.00
+Spain
+1200.00
+300.00
+500.00
+193.00
+423.00
+End
 
+Input         Output 
+France        Going to France!
+2000.00       Going to Portugal!
+300.00        Going to Egypt!
+300.00
+200.00
+400.00
+190.00
+258.00
+360.00
+Portugal
+1450.00
+400.00
+400.00
+200.00
+300.00
+300.00
+Egypt
+1900.00
+1000.00
+280.00
+300.00
+500.00
+End
 
