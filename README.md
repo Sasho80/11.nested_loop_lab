@@ -105,6 +105,10 @@ Input	Output                Explanations
 24    - neither equals 20   23 24, 24 23, 24 24 (total 4)
 20	                        There are no pairs of numbers whose sum equals the magic 20
 
+Input Output
+88    641601 combinations 
+888   - neither equals 2000
+2000	
 
 
 
