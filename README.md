@@ -162,3 +162,40 @@ Egypt
 500.00
 End
 
+06. Building
+Write a program that prints the room numbers in a building (in descending order) to the console, provided that the following conditions are met:
+• There are only offices on each even floor;
+• There are only apartments on each odd floor;
+• Each apartment is designated as follows: A{floor number}{apartment number}, apartment numbers start at 0;
+• Each office is designated as follows: O{floor number}{office number}, office numbers also start at 0;
+• There are always apartments on the top floor and they are larger than the others, so their numbers are preceded by 'L' instead of 'A'.
+ If there is only one floor, then there are only large apartments!
+Two integers are read from the console - the number of floors and the number of rooms per floor.
+
+Sample input and output
+Input	Output            Explanations
+6     L60 L61 L62 L63   We have a total of 6 floors, with 4 rooms per floor. 
+4	    A50 A51 A52 A53   The odd-numbered floors have only apartments, 
+      O40 O41 O42 O43   and the even-numbered floors have only offices.
+      A30 A31 A32 A33
+      O20 O21 O22 O23
+      A10 A11 A12 A13
+
+Input	Output
+9     L90 L91 L92 L93 L94
+5	    O80 O81 O82 O83 O84
+      A70 A71 A72 A73 A74
+      O60 O61 O62 O63 O64
+      A50 A51 A52 A53 A54
+      O40 O41 O42 O43 O44
+      A30 A31 A32 A33 A34
+      O20 O21 O22 O23 O24
+      A10 A11 A12 A13 A14
+
+Input	Output
+4     L40 L41 L42 L43
+4	    A30 A31 A32 A33
+      O20 O21 O22 O23
+      A10 A11 A12 A13
+
+
